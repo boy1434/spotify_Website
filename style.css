@@ -1,10 +1,10 @@
-body {
-  margin: 0px;
+span {
+  color: white;
 }
 
-.nav {
-  height: 80px;
-  background-color: black;
+body {
+  margin: 0px;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
 .main {
@@ -15,4 +15,26 @@ body {
 .footer {
   height: 530px;
   background-color: black;
+}
+
+nav {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 28px 17px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #1ed760;
 }
