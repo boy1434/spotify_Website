@@ -89,3 +89,16 @@ main {
   transform: scale(1.07);
   background-color: #2de26d;
 }
+
+footer {
+  height: 530px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
