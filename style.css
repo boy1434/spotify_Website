@@ -135,16 +135,23 @@ footer {
   padding: 0 15px;
 }
 
+.second-box {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .icon {
   font-size: 24px;
 }
 
 .fab {
   font-weight: 400;
+  font-family: "Font Awesome 5 Brands";
 }
 
-.fab {
-  font-family: "Font Awesome 5 Brands";
+.fa-instagram:before {
+  content: "\f16d";
 }
 
 .icon-box {
@@ -156,4 +163,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.first-line {
+  color: #919496;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
 }
