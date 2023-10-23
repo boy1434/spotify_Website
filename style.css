@@ -5,6 +5,7 @@ span {
 body {
   margin: 0px;
   font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  color: white;
 }
 
 
@@ -136,7 +137,14 @@ footer {
 
 .icon {
   font-size: 24px;
+}
 
+.fab {
+  font-weight: 400;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
 }
 
 .icon-box {
