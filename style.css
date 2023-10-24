@@ -1,32 +1,7 @@
-span {
-  color: white;
-}
-
 body {
   margin: 0px;
   font-family: spotify-circular, Helvetica, Arial, sans-serif;
   color: white;
-}
-
-
-.footer {
-  height: 530px;
-  background-color: black;
-}
-
-nav {
-  height: 80px;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-
-
-.nav-item {
-  padding: 28px 17px;
-  font-weight: 700;
 }
 
 a {
@@ -38,8 +13,21 @@ a:hover {
   color: #1ed760;
 }
 
+nav {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 28px 17px;
+  font-weight: 700;
+}
+
 main {
-  height: 969px;
+  height: 968px;
   background-color: rgb(41, 65, 171);
   background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
   background-size: 175%;
@@ -91,18 +79,18 @@ main {
   background-color: #2de26d;
 }
 
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding-top: 80px;
-  padding-bottom: 50px;
-}
-
 footer {
   height: 530px;
   background-color: black;
   display: flex;
   justify-content: center;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 .footer-menu {
@@ -111,28 +99,10 @@ footer {
   height: 346px;
 }
 
-.footer-menu-item {
-  padding-bottom: 15px;
-  padding-top: 3px;
-  font-size: 16px;
-}
-
 .first-box {
   width: 60%;
   display: flex;
   justify-content: space-between;
-}
-
-.sub-title {
-  color: #919496;
-  font-weight: 900;
-  margin: 20px 0px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  padding: 0 15px;
 }
 
 .second-box {
@@ -141,17 +111,22 @@ footer {
   justify-content: flex-end;
 }
 
-.icon {
-  font-size: 24px;
+.footer-menu-item {
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
 }
 
-.fab {
-  font-weight: 400;
-  font-family: "Font Awesome 5 Brands";
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
 }
 
-.fa-instagram:before {
-  content: "\f16d";
+.sub-title {
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
 }
 
 .icon-box {
@@ -163,6 +138,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.icon:hover {
+  color: #2de26d;
 }
 
 .first-line {
