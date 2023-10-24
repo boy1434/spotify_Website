@@ -171,3 +171,15 @@ footer {
   justify-content: flex-end;
   font-size: 12px;
 }
+
+.second-line {
+  color: #919496;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.second-line-item {
+  margin-right: 24px;
+  color: #919496;
+}
